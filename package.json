@@ -1,9 +1,10 @@
 {
   "name": "my-express-backend",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "api/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node api/index.js" 
   },
   "keywords": [],
   "author": "",
@@ -14,3 +15,4 @@
     "firebase-admin": "^12.7.0"
   }
 }
+

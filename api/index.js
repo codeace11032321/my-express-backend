@@ -1,12 +1,12 @@
 const express = require('express');
 const cors = require('cors');
-const admin = require('./firebase');
+const admin = require('../firebase');
 
 const app = express();
 
 // CORS configuration
 const corsOptions = {
-  origin: 'https://your-webflow-site-url.com', // Replace with your actual Webflow domain
+  origin: 'https://vintage-car-market----testing.webflow.io', // Replace with your actual Webflow domain
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true,
 };
